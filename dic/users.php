@@ -1,5 +1,5 @@
 <?php
 
 return new Service\UsersService(
-    require "config/db-connection.php"
+    require "config-dev/db-connection.php"
 );
